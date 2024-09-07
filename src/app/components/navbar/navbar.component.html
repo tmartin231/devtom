@@ -2,13 +2,18 @@
   <nav
     class="max-w-screen-lg mx-auto py-4 px-0 flex justify-between items-center sm:px-4"
   >
-    <div class="text-xl font-bold dark:text-white">{{ title }}</div>
+    <a
+      routerLink="/"
+      class="text-xl font-bold dark:text-white cursor-pointer"
+      >{{ title }}</a
+    >
     <div class="flex items-center space-x-8">
-      <div
-        class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-4 py-2 rounded-md"
+      <a
+        routerLink="/portfolio"
+        class="bg-gradient-to-r from-indigo-500 to-purple-500 text-white px-4 py-2 rounded-md cursor-pointer"
       >
         Portfolio
-      </div>
+      </a>
     </div>
   </nav>
 </div>
